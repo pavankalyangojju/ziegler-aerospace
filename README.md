@@ -10,7 +10,8 @@
 - #### CSS 
 - #### JavaScript
 - #### GIT
-
+- #### NODE.JS
+- #### Mongodb
 
 ## Features
 
