@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="../product/index.css">
+</head>
+
+<div>
+
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+
+            <div class="close-btn" onclick="togglepop()">&times;</div>
+            <div class="insidediv">
+                <p>Sign up or Sign in</p><br>
+                <p>Enjoy the convenience of a single account across all participating brands</p><br>
+
+                <label>Mobile Number</label> <br>
+                <div class="mobilenumber">
+                    <div>
+                        <div> +91</div>
+                        <div></div>
+                        <input type="number" placeholder="Enter your mobile number">
+                    </div><br>
+                </div>
+                <p>By creating your account you agree to our <a href="">Terms and condition</a></p><br>
+                <hr><br>
+                <div id="bottom">
+                    <div>
+                        login with email? <a href=""> click here</a>
+                    </div>
+                    <div>
+                        <button onclick="popfunct()" onclick="togglepop()" id="popcontinue">
+              CONTINUE
+            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="header">
+
+
+        <div>
+            <div class="total" id="second">
+                <div>
+                    <div id="maximage">
+                        <img id="prodPageAE" src="https://internshala.com/cached_uploads/logo%2F6337fcdacc9181664613594.png" width="50px" height="100px"> </img>
+                    </div>
+                    <div> <button id="button">New Products</button></div>
+                    <div>Specials</div>
+                    <div class="signupid">More</div>
+                    <div>
+                        <input class="signupid" style="border-style: none; background-color: #e6e9e6; height: 25px; width: 220px; margin-top: -3px;" class="displayhere" type="text" placeholder="🔍 What are you looking for?">
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="signupid" onclick="togglepop()">Sign Up - Sign In</div>
+                    <div class="signupid" class="border"></div>
+
+                    <div class="b">Basket</div>
+
+                    <div id="basketflex">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNViU_S36kMZJo4HBZKIj9Zr5GKCkpnMt_UA&usqp=CAU" width="auto" height="60px"> </img>
+                        <div class="basketvalue"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="third" class="total">
+
+                <div id="toCout">
+                    <div onmouseover="functionTodisplay()" onmouseout="functionNotdisplay()">AirframeParts</div>
+                    <div onmouseover="functionTodisplay1()" onmouseout="functionNotdisplay1()">Avionics</div>
+                    <div onmouseover="functionTodisplay2()" onmouseout="functionNotdisplay2()">Books & Video</div>
+                    <div onmouseover="functionTodisplay3()" onmouseout="functionNotdisplay3()">Composite</div>
+                    <div onmouseover="functionTodisplay4()" onmouseout="functionNotdisplay4()">Covering</div>
+                    <div onmouseover="functionTodisplay5()" onmouseout="functionNotdisplay5()">Electrical</div>
+                    <div onmouseover="functionTodisplay6()" onmouseout="functionNotdisplay6()">EngineParts</div>
+
+
+                    <div class="border"></div>
+                    <div onmouseover="functionTodisplay0()" onmouseout="functionNotdisplay0()">More</div>
+                </div>
+
+
+            </div>
+            <div id="fourth">
+                Flat 300 Off on shopping for 2499. Use code: ZA300 >
+            </div>
+
+        </div>
+    </div>
+
+    <div id="hoverover">
+        <div class="mainDivgrid">
+            <div class="dropdownMenu">
+                <p class="dispFirst">AirframeParts</p>
+                <p>Avionics</p>
+                <p>Books & Videos</p>
+                <p>Kits</p>
+                <p>Electrical</p>
+                <p>HardWare</p>
+            </div>
+            <div><img class="imageSetheigth" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/mw-3tm-125.jpg" alt=""></div>
+            <div><img class="imageSetheigth" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/MS21251-B2S.jpg" alt=""> </div>
+        </div>
+
+
+        <div class="mainDivgridT">
+            <div class="dropdownMenuT">
+                <p class="dispFirstT">Avionics</p>
+                <p>AirframeParts</p>
+                <p>Electrical</p>
+                <p>Hardware</p>
+                <p>Composite</p>
+                <p>Book&videos</p>
+            </div>
+            <div><img class="imageSetheigthT" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/1/11-18326a.jpg" alt=""></div>
+            <div><img class="imageSetheigthT" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/thumbnails/11-17930.jpg" alt=""> </div>
+        </div>
+
+
+        <div class="mainDivgridTh">
+            <div class="dropdownMenuTh">
+                <p class="dispFirstTh"> Books & videos</p>
+                <p>Avionics</p>
+                <p>Books & videos</p>
+
+            </div>
+            <div><img class="imageSetheigthTh" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/1/13-05847.jpg" alt=""></div>
+
+        </div>
+
+        <div class="mainDivgridf">
+            <div class="dropdownMenuf">
+                <p class="dispFirstf">HardWare</p>
+                <p>Avionics</p>
+                <p>Books & Videos</p>
+
+            </div>
+            <div><img class="imageSetheigthf" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/a/an44undrilleda.jpg" alt=""></div>
+            <div><img class="imageSetheigthf" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/thumbnails/dzusstudshorz.jpg" alt=""> </div>
+        </div>
+
+
+        <div class="mainDivgridfi">
+            <div class="dropdownMenufi">
+                <p class="dispFirstfi">Electrical</p>
+                <p>Avionics</p>
+                <p>Books & Videos</p>
+                <p>Composite</p>
+                <p>Electrical</p>
+                <p>Hardware</p>
+
+            </div>
+            <div><img class="imageSetheigthfi" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/1/11-05613a.jpg" alt=""></div>
+            <div><img class="imageSetheigthfi" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/1/11-16622.jpg" alt=""> </div>
+        </div>
+        <div class="mainDivgrids">
+            <div class="dropdownMenus">
+                <p class="dispFirsts">Wood</p>
+                <p>Avionics</p>
+                <p>Books & Videos</p>
+                <p>Composite</p>
+                <p>Electrical</p>
+                <p>Hardware</p>
+
+
+            </div>
+            <div><img class="imageSetheigths" src="https://d29y7fsthxbb26.cloudfront.net/cache/218-200-/catalog/graphics/basswood.jpg" alt=""></div>
+            <div><img class="imageSetheigths" src="https://d29y7fsthxbb26.cloudfront.net/cache/218-200-/catalog/graphics/royal_marine.jpg" alt=""> </div>
+
+        </div>
+
+        <div class="mainDivgridse">
+            <div class="dropdownMenuse">
+                <p class="dispFirstse">Pilot</p>
+                <p>Avionics</p>
+                <p>Books & Videos</p>
+                <p>Composite</p>
+                <p>Electrical</p>
+                <p>Hardware</p>
+
+
+            </div>
+            <div><img class="imageSetheigthse" src="https://d29y7fsthxbb26.cloudfront.net/cache/218-200-/catalog/graphics/3/13-22139a.png" alt=""></div>
+            <div><img class="imageSetheigthse" src="https://d29y7fsthxbb26.cloudfront.net/cache/200-229-/catalog/graphics/3/13-22082.jpg" alt=""> </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- more  -->
+
+        <div class="mainDivgrid4">
+            <div class="dropdownMenu4">
+                <!-- <p class="dispFirst3">Shop in Winterwear</p> -->
+                <p>Online gift</p>
+                <p>Offline gift </p>
+                <p>Blog </p>
+                <p>City Buzz</p>
+                <p>SBI offers</p>
+                <p>Partner Enquiery</p>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <form id="inputform">
+
+        <div id="twopop" class="twopopup">
+            <div class="addlayer">
+                <div class="popupcontent">
+
+                    <button class="close-btn" onclick="popfunct()">&times;</button>
+                    <div class="insidepopdiv">
+                        <p>Sign up or Sign in</p><br>
+                        <p>Enjoy the convenience of a single account across all participating brands</p><br>
+                        <p>verify with OTP</p><br>
+                        <p>sent to +919398451030 <span>change?</span> </p><br>
+
+                        <div class="inputnumber">
+                            <input id="inputnumber1" type="text">
+                            <input id="inputnumber2" type="text">
+                            <input id="inputnumber3" type="text">
+                            <input id="inputnumber4" type="text">
+                            <input id="inputnumber5" type="text">
+
+                        </div>
+
+
+                        <div></div>
+                        <p>We've sent your code</p><br>
+
+                        <hr>
+                        <div class="continue">
+                            <div><button type="submit">Continue</button></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+    </form>
+
+
+    <!-- Header Part -->
+    <!-- Header Part -->
+    <div id="mainsorting">
+        <div class="sortdiv">
+            <select name="" id="pricepurpose" class="box" onchange="pricesortchange()">
+        <option>Price</option>
+        <option value="high">High to low</option>
+        <option value="low">Low to high</option>
+
+ 
+
+
+
+        </div>
+        <div class="sortdiv">
+
+            <select name="" id="browse" class="box" onchange="browsearr()">
+        <option>Browse</option>
+        <option value="new">New</option>
+        <option value="online only">ONLINE ONLY</option>
+        <option value="type">Flat 50% off</option>
+        <option value="type">Flat 20% off</option>
+        <option value="type">Flat 40% off</option>
+      </select>
+            <select name="" id="promotions" class="box" onchange='promotionsarr()'>
+        <option>Promotions</option>
+        <option value="sale">Sale</option>
+        <option value="Max300">ZA 300</option>
+      </select>
+            <select name="" id="discount" class="box" onchange="discountarr()">
+        <option>Discount Range</option>
+        <option value="30">30% and above</option>
+        <option value="20">20% and above</option>
+        <option value="10">Less than 10%</option>
+      </select>
+
+        </div>
+        <div class="sortdiv">
+            <div></div>
+        </div>
+
+
+    </div>
+    <div id="overlapping">
+        <div id="productsDis">
+            <div id="productsort">
+                <p id="countProduct"></p>
+                <div id="sortingtheproduct">
+                    <p>Sort by</p>
+                    <select name="" id="sortInsec">
+            <option value="Relevancep">Relevance</option>
+            <option value="NAP">New Arrivals</option>
+            <option value="Discountp">Discount</option>
+            <option value="LTH">Price-Low to High</option>
+            <option value="HTL">Price-High tolow</option>
+            <option value="Alphabetical">Alphabetical</option>
+          </select>
+                </div>
+            </div>
+        </div>
+        <div id="allProduct"></div>
+
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <hr />
+    <div id="Subscribe">
+        <div>
+            <h3>Subscribe to our awesome emails.</h3>
+            <p>Get our latest offers and news straight in your inbox.</p>
+            <input type="email" placeholder="Pls enter the email" />
+            <button id="btn">Subscribe</button>
+        </div>
+        <div id="hide">
+            <h3>Download our apps</h3>
+            <p>Shop our products and offers on-the-go.</p>
+            <img id="apples" src="data:image/png;base64,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"
+                alt="" />
+            <img id="plays" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdq6x5zx4IkH62_dtKmET7ugOscGJ3fG9koQ&usqp=CAU" alt="" />
+        </div>
+    </div>
+    <hr style="width: 85%; margin: auto; margin-top: 30px" />
+    <div class="footer">
+        <div style="display: flex; justify-content: space-around;margin-top: 10px;">
+            <div style="color: white;">
+                <h2>Contact</h2>
+                <p>Toll Free: 9876543210</p>
+                <p>Customer Service: 1234567890</p>
+                <p>Fax: 9090807060</p>
+            </div>
+            <div style="color: white;">
+                <h2>Location & Hours</h2>
+                <p>West - Corona, CA</p>
+            </div>
+            <div style="color: white;">
+                <h2>Help</h2>
+                <P>Contact Us</P>
+
+            </div>
+            <div style="color: white;">
+                <h2>Company Info</h2>
+                <p>About Us</p>
+            </div>
+        </div>
+        <div class="footer-div">
+            <div style="color: white; margin-left: 20px;">
+                <p>Copyright ©EN ISO 9001:2015 .ZIEGLER AEROSPACE All rights reserved. <br> Prices subject to change without notice.</p>
+            </div>
+            <div class="footer-icons">
+                <a href="https://twitter.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+                </a>
+
+                <a href="https://www.instagram.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ziegler-aerospace/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="blue" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </a>
+                <a href="https://www.facebook.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                </a>
+                <a href="https://www.youtube.com/@ZieglerGroupOfficial">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                  </svg>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </body>
+
+</html>
+<script src="product.js"></script>
+<!-- hrader bar -->
