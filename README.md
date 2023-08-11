@@ -1,9 +1,3 @@
-
-
-## Contributers :- 
-
-- #### [Pavan Kalyan]()
-
 ## Tech Stack :- 
 
 - #### HTML
